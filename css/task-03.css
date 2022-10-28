@@ -1,0 +1,19 @@
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+#gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
