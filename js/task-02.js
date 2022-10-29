@@ -17,5 +17,3 @@ ingredients.forEach(ingredient => {
 })
 
 list.append(...array)
-
-
