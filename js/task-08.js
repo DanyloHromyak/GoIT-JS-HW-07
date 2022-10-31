@@ -42,6 +42,7 @@ function destroyBoxes() {
 }
 
 function addBoxes() {
+  parentBox.innerHTML = '';
   boxes.forEach((box) => {
     parentBox.innerHTML += `<div style="background: ${box.color};width: ${box.width}px; height: ${box.height}px"></div>`;
   });
